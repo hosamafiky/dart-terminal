@@ -13,7 +13,8 @@ void main() {
   //! Strategy Design Pattern
   // print('------START-------');
   // PaymentManager manager = PaymentManager();
-  // manager.strategy = MobileWalletPayment();
-  // manager.processPayment(40);
+  // manager.strategy = MobileWalletPayment(); // Setting the strategy to Mobile Wallet Payment
+  // manager.strategy = VisaCardPayment(); // Setting the strategy to Visa Card Payment
+  // manager.processPayment(80);
   // print('-------END--------');
 }
